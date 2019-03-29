@@ -1,7 +1,7 @@
 Name:       tup
 Version:    0.7.8
 Release:    1%{?dist}
-Summary:    Tup is a file-based build system.
+Summary:    A file-based build system
 License:    GPLv2
 URL:        http://gittup.org/tup
 Packager:   js+tup@alien8.de
