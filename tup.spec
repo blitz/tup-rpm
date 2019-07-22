@@ -1,12 +1,12 @@
 Name:       tup
-Version:    0.7.8
+Version:    0.7.8.20.g1d2fd514
 Release:    1%{?dist}
 Summary:    A file-based build system
 License:    GPLv2
 URL:        http://gittup.org/tup
 Packager:   js+tup@alien8.de
 
-Source0: https://github.com/gittup/tup/archive/v%{version}.tar.gz
+Source0: https://github.com/gittup/tup/archive/1d2fd51418cc8dd7d1a526fff55e65329b02b13e.tar.gz
 Patch0: tup-without-git.patch
 
 BuildRequires: fuse-devel, pcre-devel, gcc
@@ -22,7 +22,7 @@ algorithms to avoid doing unnecessary work. This means you can stay focused on
 your project rather than on your build system.
 
 %prep
-%setup -q
+%setup -q -n "tup-1d2fd51418cc8dd7d1a526fff55e65329b02b13e"
 
 %patch0
 
